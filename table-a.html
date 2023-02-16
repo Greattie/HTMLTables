@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        td,
+        th {
+            border-collapse: collapse;
+        }
+    </style>
+    <title>A complex table</title>
+</head>
+
+<body>
+    <table border="1" width="600px" align="center" style="margin-top: 100px;">
+        <caption>A complex table</caption>
+        <!-- Row 1 -->
+        <tr style="background-color:#d1d6da">
+            <th colspan=" 3" width="70%">Invoice #12345789</th>
+            <th colspan="1" width="30%"> 14 January 2025</th>
+        </tr>
+
+        <!-- Row 2 -->
+        <tr>
+            <td colspan="2" width="50%">
+                <strong>Pay to:</strong> <br>
+                Acme Billing Co. <br>
+                123 Main St. <br>
+                Cityville, NA 12345
+            </td>
+            <td colspan="2" width="50%">
+                <strong>Customer:</strong> <br>
+                John Smith<br>
+                321 Willow Way <br>
+                Southeast Northwestshire, MA 54321
+            </td>
+        </tr>
+
+        <!-- Row 3 -->
+        <tr style="background-color:#d1d6da">
+            <th width="25%">Name/Description</th>
+            <th width="25%">Qty.</th>
+            <th width="25%">@</th>
+            <th width="25%">Cost</th>
+        </tr>
+
+        <!-- Row 4 -->
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+
+        <!-- Row 5 -->
+        <tr>
+            <td>Staples (box)</td>
+            <td>100.00</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+
+        <!-- Row 6 -->
+        <tr>
+            <td colspan="3" style="background-color:#d1d6da">Subtotal</td>
+            <td>110.00</td>
+        </tr>
+
+        <!-- Row 7 -->
+        <tr>
+            <td colspan="2" style="background-color:#d1d6da">Tax</td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+
+        <!-- Row 8 -->
+        <tr>
+            <td colspan="3" style="background-color:#d1d6da">Grand total</td>
+            <td>$118.80</td>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <div style="display: flex; gap: 30px; justify-content: center; align-items: center;">
+        <a href="table-b.html" ><button
+                style="width: 100px; height: 30px; border: 1px solid; border-radius: 2px; background-color: rgb(241, 231, 217); cursor: pointer;">Next</button></a>
+    </div>
+
+</body>
+
+</html>
